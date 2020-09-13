@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ServerWithDB</string>
+    <string name="send_message_to_client">send message to client</string>
+    <string name="message_from_server">message from server</string>
+    <string name="start_server">start server</string>
+    <string name="message_server">Message Server</string>
+    <string name="view_database">View Database</string>
+    <string name="chat_server">Chat Server</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="save_in_db">Save in DB</string>
+    <string name="item">Item</string>
+</resources>

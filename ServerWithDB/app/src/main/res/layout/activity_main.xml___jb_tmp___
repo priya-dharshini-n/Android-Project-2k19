@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/start_server"
+        android:layout_width="370dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/ic_launcher_background"
+        android:onClick="onClick"
+        android:text="@string/start_server"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/edMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_server"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:autofillHints="@string/app_name"
+        android:background="@color/colorAccent"
+        android:hint="@string/app_name"
+        android:inputType="textLongMessage"
+        android:text="@string/message_from_server"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold|italic"
+        tools:targetApi="o" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_data"
+        android:layout_below="@+id/edMessage"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/msgList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/send_data"
+        android:layout_width="374dp"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_launcher_background"
+        android:onClick="onClick"
+        android:text="@string/send_message_to_client"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/DB"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_server"
+        android:layout_marginTop="-99dp"
+        android:layout_marginBottom="0dp"
+        android:text="@string/save_in_db"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/viewdb"
+        android:layout_width="372dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/DB"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/view_database"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
+
