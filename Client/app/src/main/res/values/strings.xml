@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Client</string>
+    <string name="connect_to_server">CONNECT TO SERVER</string>
+    <string name="message_from_client">MESSAGE FROM CLIENT</string>
+    <string name="message_to_server">MESSAGE TO SERVER</string>
+    <string name="view_database">View Database</string>
+    <string name="download">Download</string>
+    <string name="chat">CHAT</string>
+    <string name="play_video">Play Video</string>
+    <string name="basic_player">Basic Player</string>
+    <string name="minimal_player">Minimal Player</string>
+    <string name="custom_player_control">Custom Player Control</string>
+    <string name="player_fragment">Player Fragment</string>
+    <string name="dash">--:--</string>
+    <string name="pause_video">pause video</string>
+    <string name="youtube_player">Youtube Player</string>
+    <string name="textview">TextView</string>
+    <string name="youtube_downloader">Youtube Downloader</string>
+    <string name="cl">Client</string>
+    <string name="full_screen">Full Screen</string>
+</resources>
